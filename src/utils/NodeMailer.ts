@@ -6,7 +6,7 @@ export class NodeMailer{
     private static initiateTransport(){
         return nodeMailer.createTransport(
             // sendGrid({
-            //         auth:{api_key: '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'}
+            //         auth:{api_key: ''}
             //     })
             {
                 service:'gmail',
